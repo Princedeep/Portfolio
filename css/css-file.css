@@ -1,0 +1,328 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .projects-cont {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+section {
+  background-color: white;
+}
+
+.top-section {
+  /* background-color: #1c1d25; */
+  background-image: url(/img/back_2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: rgb(45, 23, 105);
+  font-size: 40px;
+}
+
+.sub-section {
+  background-color: rgb(209, 236, 236);
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li {
+  /* width: 200px; */
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 0;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 60px;
+  color: rgb(45, 23, 105);
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.subtext {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.abt-text {
+  font-size: 30px;
+  font-weight: 300;
+  padding-left: 40px;
+}
+
+.abt-heading {
+  text-align: center;
+  padding-right: 170px;
+}
+
+.top-area {
+  display: flex;
+
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 140px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: rgb(117, 173, 238);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  padding-top: 4px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.btn-cont {
+  display: flex;
+}
+
+.btn {
+  text-decoration: none;
+  color: rgb(45, 23, 105);
+  font-weight: 400;
+}
+
+.btn-2 {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.ftr-head {
+  color: white;
+  display: block;
+  margin: auto;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.btm-btn {
+  display: block;
+  width: 170px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgb(110, 248, 82);
+  border: 0px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.button:hover {
+  background-color: #7c68f0;
+}
+
+.button:active {
+  background-color: darkgray;
+}
+
+.socials {
+  padding-bottom: 130px;
+}
+
+.social {
+  margin: 20px;
+}
+
+.img {
+  width: 200px;
+
+  /*This means it will take allwidth as block. Display inline means it ill take required space.*/
+  /* width: 200px; */
+  /*Using width with display property and margin auto will help to center the elements or images*/
+  /* margin: auto; */
+  border-radius: 250px;
+  margin-top: 120px;
+}
+.headshot-container {
+  display: flex;
+  padding-top: 0px;
+}
+
+.project-img {
+  margin-top: 20px;
+
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+}
+
+.projects-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-projects-card {
+  width: 450px;
+
+  height: 550px;
+  box-shadow: 4px 2px 25px -4px rgba(0, 40, 75, 0.7);
+  margin: 10px;
+}
+#P1:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+#P2:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+#P3:hover {
+  position: relative;
+  bottom: 10px;
+}
+#P4:hover {
+  position: relative;
+  bottom: 10px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(45, 23, 105);
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: rgb(56, 20, 216);
+}
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    /* color: black; */
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+
+  ul {
+    display: none;
+
+    margin: 0px;
+  }
+
+  ul.show {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    display: none;
+  }
+}
+
+/* .fields {
+  display: block;
+  width: 500px;
+  height: 20px;
+  border-radius: 5px;
+} */
+
+.field,
+.text-area {
+  display: block;
+  width: 500px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.quote {
+  margin-top: 150px;
+  margin-left: 200px;
+}
+.myfooter {
+  display: flex;
+  margin-left: 200px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+.copyright {
+  padding-top: 20px;
+}
