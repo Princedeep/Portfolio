@@ -178,14 +178,14 @@ p {
 }
 
 .img {
-  width: 200px;
+  width: 300px;
 
   /*This means it will take allwidth as block. Display inline means it ill take required space.*/
   /* width: 200px; */
   /*Using width with display property and margin auto will help to center the elements or images*/
   /* margin: auto; */
   border-radius: 250px;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 .headshot-container {
   display: flex;
