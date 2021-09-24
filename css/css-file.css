@@ -329,6 +329,9 @@ footer {
 }
 .copyright {
   padding-top: 20px;
+  font-size: medium;
+ 
+  text-align: center;
 }
 .icons{
   display: block;
