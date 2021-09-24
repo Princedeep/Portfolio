@@ -98,7 +98,9 @@ p {
 
 .abt-heading {
   text-align: center;
-  padding-right: 170px;
+  padding-right: 260px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .top-area {
